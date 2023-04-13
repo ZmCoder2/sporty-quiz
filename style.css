@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    border-color: purple;
+    border-width: 3px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+:root {
+    --correct: #1AF70B; 
+    /* use color: var(--correct) */
+    --wrong: #FE1325;
+    /* use color: var(--wrong) */
+}
+
+/* give the body elements position/alignment, size, purple background, and and the answer boxes size */
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    font-size: larger;
+}
+
+/* displays a green background when user answers correctly */
+body.correct {
+    background-color: green;
+}
+
+/* displays a red background when a user answers wrong */
+body.wrong {
+    background-color: red;
+}
+
+/* gives the container element white background size */
+div.container {
+    width: 800px;
+    max-width: 80%;
+    padding: 12px;
+}
+/* mess with this one later */
+.btnGrid {
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+
+.btn {
+    padding: 8px;
+}
+
+.btn:hover {
+    background-color: yellow;
+}
+
+.btn.correct {
+    background-color: #1AF70B;
+}
+
+.btn.wrong {
+    background-color: #FE1325;
+}
+
+#startBtn, #nextBtn {
+    font-size: 35px;
+    font-weight: 550;
+    padding:12px;
+    border-color: purple;
+    border-width: 9px;
+}
+
+.start-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}startButton.addEventListener('click', startQuiz);
+nextButton.addEventListener('click', () => {
+    presentQuestion++;
+    nextQuestion();
+});
