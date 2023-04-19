@@ -15,6 +15,15 @@
     /* use color: var(--wrong) */
 }
 
+h2 {
+    background-color: yellow;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    height: 80px;
+    width: auto;
+}
+
 /* give the body elements position/alignment, size, purple background, and and the answer boxes size */
 body {
     padding: 0;
@@ -85,8 +94,8 @@ div.container {
 
 .hide {
     display: none;
-}startButton.addEventListener('click', startQuiz);
-nextButton.addEventListener('click', () => {
-    presentQuestion++;
-    nextQuestion();
-});
+}
+
+#timer {
+    display: none;
+}
