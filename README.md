@@ -12,4 +12,5 @@ Once the user runs out of time a page will display say "Time is up" with a resta
 
 ## URL
 https://zmcoder2.github.io/sporty-quiz/
+
 https://github.com/ZmCoder2/sporty-quiz.git
