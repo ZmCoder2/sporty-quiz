@@ -66,18 +66,22 @@ div.container {
     padding: 8px;
 }
 
+/* Hover over the choices it turns yellow */
 .btn:hover {
     background-color: yellow;
 }
 
+/* Background and button turn green when user answers correctly */
 .btn.correct {
     background-color: #1AF70B;
 }
 
+/* Background and button turn red when user answers incorrectly */
 .btn.wrong {
     background-color: #FE1325;
 }
 
+/* Start button and next button style and positioning */
 #startBtn, #nextBtn {
     font-size: 35px;
     font-weight: 550;
@@ -86,16 +90,19 @@ div.container {
     border-width: 9px;
 }
 
+/* Aligns the start and next */
 .start-next {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Hides the start button once clicked */
 .hide {
     display: none;
 }
 
+/* Timer is not displayed till user clicks start */
 #timer {
     display: none;
 }
