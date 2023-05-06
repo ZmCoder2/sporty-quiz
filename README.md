@@ -9,3 +9,7 @@ Once the user runs out of time a page will display say "Time is up" with a resta
 
 ## Webpage
 <img width="1123" alt="Screenshot 2023-05-06 at 5 28 08 PM" src="https://user-images.githubusercontent.com/126508376/236647248-7eea7378-e9b2-45d4-b145-f43510606f3a.png">
+
+## URL
+https://zmcoder2.github.io/sporty-quiz/
+https://github.com/ZmCoder2/sporty-quiz.git
